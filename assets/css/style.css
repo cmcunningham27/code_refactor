@@ -1,3 +1,4 @@
+/*General styling of elements*/
 * {
     box-sizing: border-box;
     padding: 0;
@@ -7,7 +8,7 @@
 body {
     background-color: #d9dcd6;
 }
-
+/*This styles 6 different header elements*/
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -40,14 +41,12 @@ header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
-
+/*Styles the anchor tag text*/
 a {
     color: #ffffff;
     text-decoration: none;
 }
-
-
-
+/*Adds background presentation image to a blank div tag and styleing it*/
 .hero {
     height: 800px;
     width: 100%;
@@ -58,14 +57,14 @@ a {
 }
 
 
-
+/*Targeting main marketing section*/
 main {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
-article {
+.main {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -74,10 +73,10 @@ article {
     color: #ffffff;
 }
 
-article img {
+.main img {
     max-height: 200px;
 }
-
+/*Floats img to location*/
 .float-left {
     float: left;
     margin-right: 25px;
@@ -88,7 +87,7 @@ article img {
     margin-left: 25px;
 }
 
-article h2 {
+.main h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
@@ -96,7 +95,7 @@ article h2 {
 p {
     font-size: 16px;
 }
-
+/*Targeting aside section and sections within*/
 aside {
     margin-right: 20px;
     padding: 20px;
@@ -108,22 +107,22 @@ aside {
     background-color: #2589bd;
 }
 
-section {
+.benefit {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-section h3 {
+.benefit h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-section img {
+.benefit img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
-
+/*Adding styling to the footer element*/
 footer {
     padding: 30px;
     clear: both;
